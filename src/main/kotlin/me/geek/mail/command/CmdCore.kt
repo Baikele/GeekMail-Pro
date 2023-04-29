@@ -55,7 +55,7 @@ object CmdCore {
     @CommandBody(permissionDefault = PermissionDefault.TRUE)
     val mail = CmdMail.command
 
-    @CommandBody(permissionDefault = PermissionDefault.TRUE)
+    @CommandBody(permissionDefault = PermissionDefault.FALSE)
     val bind = CmdBind.command
 
 

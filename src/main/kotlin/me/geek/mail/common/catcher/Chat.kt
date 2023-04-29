@@ -15,7 +15,7 @@ class Chat(
     override val player: Player
 ): ChatCatCher() {
 
-    private val reg = Regex("""[a-zA-Z0-9]+([-_.][A-Za-zd]+)*@([a-zA-Z0-9]+[-.])+[A-Za-zd]{2,5}""")
+    private val reg = Regex("""[a-zA-Z0-9]+([-_.][A-Za-zd]+)*@([a-zA-Z0-9]+[-.])+[A-Za-zd]{2,15}""")
     override fun remove() {
 
     }
